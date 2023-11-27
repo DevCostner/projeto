@@ -1,8 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 :root {
   --text-color: white;
@@ -92,7 +88,7 @@ body * {
   background: var(--surface-color);
   border: var(--stroke-color);
   backdrop-filter: blur(4px);
-  
+  -webkit-backdrop-filter: blur(4px);
 }
 
 /* Links - listas */
