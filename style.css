@@ -92,7 +92,7 @@ body * {
   background: var(--surface-color);
   border: var(--stroke-color);
   backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  
 }
 
 /* Links - listas */
