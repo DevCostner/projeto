@@ -6,12 +6,12 @@
 
 :root {
   --text-color: white;
-  --bg-url: url(/assets/bg-mobile.jpg);
+  --bg-url: url(assets/bg-mobile.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(255, 255, 255, 0.05);
   --highlight-color: rgba(255, 255, 255, 0.1);
-  --switch-bg-url: url(/assets/lua.png);
+  --switch-bg-url: url(assets/lua.png);
 }
 
 .light {
@@ -21,7 +21,7 @@
   --surface-color: rgba(0, 0, 0, 0.1);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
-  --switch-bg-url: url(/assets/sol.png);
+  --switch-bg-url: url(assets/sol.png);
 }
 
 body {
@@ -153,10 +153,10 @@ footer {
 
 @media (min-width: 700px) {
   :root {
-    --bg-url: url(/assets/bg-desktop.jpg);
+    --bg-url: url(assets/bg-desktop.jpg);
   }
   .light {
-    --bg-url: url(/assets/bg-desktop-light.jpg);
+    --bg-url: url(assets/bg-desktop-light.jpg);
   }
 }
 /* Animação */
